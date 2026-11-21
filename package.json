@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/suryaprabhaz/AeroUI.git"
+    "url": "https://github.com/suryaprabhaz/macos-studio-ui.git"
   },
-  "homepage": "https://github.com/suryaprabhaz/AeroUI#readme",
+  "homepage": "https://github.com/suryaprabhaz/macos-studio-ui#readme",
   "bugs": {
-    "url": "https://github.com/suryaprabhaz/AeroUI/issues"
+    "url": "https://github.com/suryaprabhaz/macos-studio-ui/issues"
   },
   "license": "MIT",
   "icon": "assets/macos-studio-icon.png",
