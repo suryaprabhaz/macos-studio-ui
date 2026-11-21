@@ -1,0 +1,43 @@
+{
+  "name": "AeroUI Classic",
+  "type": "dark",
+  "colors": {
+    "activityBar.background": "#24272f",
+    "activityBar.foreground": "#ffffff",
+    "sideBar.background": "#292c34",
+    "sideBar.foreground": "#abb2bf",
+    "sideBar.border": "#353945",
+    "editorGroupHeader.tabsBackground": "#21242c",
+    "tab.activeBackground": "#282c34",
+    "tab.activeForeground": "#dcdfe4",
+    "tab.border": "#313540",
+    "editor.background": "#282c34",
+    "editor.foreground": "#abb2bf",
+    "editorCursor.foreground": "#528bff",
+    "statusBar.background": "#21242c",
+    "statusBar.foreground": "#9da5b4",
+    "statusBar.border": "#2c313c"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": { "foreground": "#5c6370", "fontStyle": "italic" }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["keyword"],
+      "settings": { "foreground": "#c678dd" }
+    },
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": { "foreground": "#98c379" }
+    },
+    {
+      "name": "Function",
+      "scope": ["entity.name.function"],
+      "settings": { "foreground": "#61afef" }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "AeroUI macOS Dark",
+  "type": "dark",
+  "colors": {
+    "activityBar.background": "#1e1e1e",
+    "activityBar.foreground": "#e0e0e0",
+    "activityBar.inactiveForeground": "#777777",
+    "activityBarBadge.background": "#007aff",
+    "activityBarBadge.foreground": "#ffffff",
+    "sideBar.background": "#181818",
+    "sideBar.foreground": "#cccccc",
+    "sideBar.border": "#282828",
+    "sideBarTitle.foreground": "#dddddd",
+    "sideBarSectionHeader.background": "#1b1b1b",
+    "sideBarSectionHeader.foreground": "#aaaaaa",
+    "sideBarSectionHeader.border": "#252525",
+    "editorGroupHeader.tabsBackground": "#161616",
+    "tab.activeBackground": "#1e1e1e",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#161616",
+    "tab.inactiveForeground": "#888888",
+    "tab.border": "#222222",
+    "editor.background": "#1e1e1e",
+    "editor.foreground": "#e1e1e1",
+    "editorLineNumber.foreground": "#505050",
+    "editorLineNumber.activeForeground": "#c6c6c6",
+    "editorCursor.foreground": "#007aff",
+    "editor.lineHighlightBackground": "#28282855",
+    "editor.selectionBackground": "#007aff33",
+    "statusBar.background": "#181818",
+    "statusBar.foreground": "#999999",
+    "statusBar.border": "#262626",
+    "titleBar.activeBackground": "#1e1e1e",
+    "titleBar.activeForeground": "#cccccc",
+    "titleBar.inactiveBackground": "#181818",
+    "titleBar.inactiveForeground": "#666666"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": { "foreground": "#6a737d", "fontStyle": "italic" }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": { "foreground": "#ff7ab2" }
+    },
+    {
+      "name": "String",
+      "scope": ["string", "punctuation.definition.string"],
+      "settings": { "foreground": "#ff8170" }
+    },
+    {
+      "name": "Function",
+      "scope": ["entity.name.function", "support.function"],
+      "settings": { "foreground": "#78c2b4" }
+    },
+    {
+      "name": "Variable",
+      "scope": ["variable", "support.variable"],
+      "settings": { "foreground": "#e1e1e1" }
+    },
+    {
+      "name": "Type",
+      "scope": ["entity.name.type", "support.type"],
+      "settings": { "foreground": "#6bdfff" }
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": { "foreground": "#dabaef" }
+    }
+  ]
+}

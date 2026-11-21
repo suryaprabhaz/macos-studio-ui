@@ -1,0 +1,65 @@
+{
+  "name": "AeroUI macOS Midnight",
+  "type": "dark",
+  "colors": {
+    "activityBar.background": "#0b0c0e",
+    "activityBar.foreground": "#f0f0f5",
+    "activityBar.inactiveForeground": "#555560",
+    "activityBarBadge.background": "#0a84ff",
+    "activityBarBadge.foreground": "#ffffff",
+    "sideBar.background": "#0d0e12",
+    "sideBar.foreground": "#c0c0c8",
+    "sideBar.border": "#1a1b22",
+    "sideBarTitle.foreground": "#ffffff",
+    "sideBarSectionHeader.background": "#111217",
+    "sideBarSectionHeader.foreground": "#858595",
+    "sideBarSectionHeader.border": "#1a1b22",
+    "editorGroupHeader.tabsBackground": "#090a0d",
+    "tab.activeBackground": "#121318",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#090a0d",
+    "tab.inactiveForeground": "#656575",
+    "tab.border": "#16171f",
+    "editor.background": "#101116",
+    "editor.foreground": "#e6e6ee",
+    "editorLineNumber.foreground": "#3a3b4c",
+    "editorLineNumber.activeForeground": "#9090aa",
+    "editorCursor.foreground": "#0a84ff",
+    "editor.lineHighlightBackground": "#1a1c24",
+    "editor.selectionBackground": "#0a84ff30",
+    "statusBar.background": "#090a0d",
+    "statusBar.foreground": "#808090",
+    "statusBar.border": "#181922",
+    "titleBar.activeBackground": "#0d0e12",
+    "titleBar.activeForeground": "#e0e0e5",
+    "titleBar.inactiveBackground": "#090a0d",
+    "titleBar.inactiveForeground": "#505058"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": { "foreground": "#5c6370", "fontStyle": "italic" }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "storage.type"],
+      "settings": { "foreground": "#f97583" }
+    },
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": { "foreground": "#9ecbff" }
+    },
+    {
+      "name": "Function",
+      "scope": ["entity.name.function"],
+      "settings": { "foreground": "#b392f0" }
+    },
+    {
+      "name": "Type",
+      "scope": ["entity.name.type"],
+      "settings": { "foreground": "#79b8ff" }
+    }
+  ]
+}

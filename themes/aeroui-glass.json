@@ -1,0 +1,50 @@
+{
+  "name": "AeroUI Glass",
+  "type": "dark",
+  "colors": {
+    "activityBar.background": "#12141c",
+    "activityBar.foreground": "#e0e6ed",
+    "activityBar.inactiveForeground": "#60687b",
+    "activityBarBadge.background": "#007aff",
+    "sideBar.background": "#141722",
+    "sideBar.foreground": "#c5cbd6",
+    "sideBar.border": "#222738",
+    "sideBarTitle.foreground": "#e1e7f0",
+    "editorGroupHeader.tabsBackground": "#0f121a",
+    "tab.activeBackground": "#171a27",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#0f121a",
+    "tab.inactiveForeground": "#727a8f",
+    "tab.border": "#1f2434",
+    "editor.background": "#151824",
+    "editor.foreground": "#e2e6ee",
+    "editorCursor.foreground": "#38bdf8",
+    "editor.lineHighlightBackground": "#1d2233",
+    "editor.selectionBackground": "#38bdf82a",
+    "statusBar.background": "#0e1118",
+    "statusBar.foreground": "#858fa3",
+    "statusBar.border": "#1c202e"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": { "foreground": "#5c6b84", "fontStyle": "italic" }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["keyword"],
+      "settings": { "foreground": "#f472b6" }
+    },
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": { "foreground": "#34d399" }
+    },
+    {
+      "name": "Function",
+      "scope": ["entity.name.function"],
+      "settings": { "foreground": "#38bdf8" }
+    }
+  ]
+}

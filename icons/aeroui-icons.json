@@ -1,0 +1,17 @@
+{
+  "iconDefinitions": {
+    "_file": {
+      "iconPath": "./assets/file.svg"
+    },
+    "_folder": {
+      "iconPath": "./assets/folder.svg"
+    },
+    "_folder_open": {
+      "iconPath": "./assets/folder-open.svg"
+    }
+  },
+  "file": "_file",
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "hidesExplorerArrows": false
+}

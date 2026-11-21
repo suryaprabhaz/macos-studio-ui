@@ -1,0 +1,211 @@
+{
+  "name": "aeroui",
+  "displayName": "AeroUI — macOS UI for Code Editors",
+  "description": "macOS-inspired clean appearance, refined themes, presets, and UI controls for VS Code-compatible code editors.",
+  "version": "0.1.0",
+  "publisher": "rizzzuu",
+  "author": {
+    "name": "Rizzzuu",
+    "url": "https://github.com/suryaprabhaz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suryaprabhaz/AeroUI.git"
+  },
+  "homepage": "https://github.com/suryaprabhaz/AeroUI#readme",
+  "bugs": {
+    "url": "https://github.com/suryaprabhaz/AeroUI/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/aeroui-icon.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "macos",
+    "theme",
+    "clean",
+    "minimal",
+    "ui",
+    "apple",
+    "aeroui",
+    "cursor",
+    "appearance"
+  ],
+  "main": "./dist/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "aeroui.enable",
+        "title": "AeroUI: Enable macOS Mode",
+        "category": "AeroUI"
+      },
+      {
+        "command": "aeroui.disable",
+        "title": "AeroUI: Disable macOS Mode",
+        "category": "AeroUI"
+      },
+      {
+        "command": "aeroui.toggle",
+        "title": "AeroUI: Toggle macOS Mode",
+        "category": "AeroUI"
+      },
+      {
+        "command": "aeroui.selectPreset",
+        "title": "AeroUI: Select Preset",
+        "category": "AeroUI"
+      },
+      {
+        "command": "aeroui.openSettings",
+        "title": "AeroUI: Open AeroUI Settings",
+        "category": "AeroUI"
+      },
+      {
+        "command": "aeroui.restorePrevious",
+        "title": "AeroUI: Restore Previous Appearance",
+        "category": "AeroUI"
+      },
+      {
+        "command": "aeroui.showStatus",
+        "title": "AeroUI: Show Status",
+        "category": "AeroUI"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "aeroui-sidebar-view",
+          "title": "AeroUI",
+          "icon": "assets/sidebar-icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "aeroui-sidebar-view": [
+        {
+          "type": "webview",
+          "id": "aeroui.dashboardView",
+          "name": "AeroUI Control Center"
+        }
+      ]
+    },
+    "themes": [
+      {
+        "label": "AeroUI macOS Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aeroui-macos-dark.json"
+      },
+      {
+        "label": "AeroUI macOS Light",
+        "uiTheme": "vs",
+        "path": "./themes/aeroui-macos-light.json"
+      },
+      {
+        "label": "AeroUI macOS Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aeroui-macos-midnight.json"
+      },
+      {
+        "label": "AeroUI Minimal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aeroui-minimal.json"
+      },
+      {
+        "label": "AeroUI Glass",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aeroui-glass.json"
+      },
+      {
+        "label": "AeroUI Classic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aeroui-classic.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "aeroui-icons",
+        "label": "AeroUI macOS Icons",
+        "path": "./icons/aeroui-icons.json"
+      }
+    ],
+    "configuration": {
+      "title": "AeroUI",
+      "properties": {
+        "aeroui.enabled": {
+          "type": "boolean",
+          "default": false,
+          "description": "Whether AeroUI macOS mode is currently enabled."
+        },
+        "aeroui.activePreset": {
+          "type": "string",
+          "default": "macOS Dark",
+          "enum": [
+            "macOS Dark",
+            "macOS Light",
+            "macOS Midnight",
+            "Minimal",
+            "Glass-inspired",
+            "Classic"
+          ],
+          "description": "Active AeroUI preset."
+        },
+        "aeroui.accentColor": {
+          "type": "string",
+          "default": "appleBlue",
+          "enum": [
+            "appleBlue",
+            "applePurple",
+            "applePink",
+            "appleOrange",
+            "appleGreen",
+            "appleGraphite"
+          ],
+          "description": "macOS-inspired accent color choice."
+        },
+        "aeroui.enableSmoothScrolling": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable smooth scrolling in editor and workbench."
+        },
+        "aeroui.enableSmoothCursor": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable smooth cursor animation and blinking."
+        },
+        "aeroui.applyMacFonts": {
+          "type": "boolean",
+          "default": true,
+          "description": "Include clean macOS typography fallback fonts in editor font family."
+        },
+        "aeroui.applyIconTheme": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically activate AeroUI macOS icon theme when applying presets."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./dist/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.0",
+    "@types/vscode": "^1.85.0",
+    "@vscode/test-electron": "^2.3.9",
+    "mocha": "^10.2.0",
+    "typescript": "^5.3.3",
+    "@vscode/vsce": "^2.22.0"
+  }
+}
