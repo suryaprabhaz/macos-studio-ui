@@ -1,5 +1,5 @@
 {
-  "name": "AeroUI Glass",
+  "name": "macOS Studio Glass",
   "type": "dark",
   "colors": {
     "activityBar.background": "#12141c",
@@ -28,23 +28,40 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment"],
-      "settings": { "foreground": "#5c6b84", "fontStyle": "italic" }
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#5c6b84",
+        "fontStyle": "italic"
+      }
     },
     {
       "name": "Keyword",
-      "scope": ["keyword"],
-      "settings": { "foreground": "#f472b6" }
+      "scope": [
+        "keyword"
+      ],
+      "settings": {
+        "foreground": "#f472b6"
+      }
     },
     {
       "name": "String",
-      "scope": ["string"],
-      "settings": { "foreground": "#34d399" }
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#34d399"
+      }
     },
     {
       "name": "Function",
-      "scope": ["entity.name.function"],
-      "settings": { "foreground": "#38bdf8" }
+      "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#38bdf8"
+      }
     }
   ]
 }

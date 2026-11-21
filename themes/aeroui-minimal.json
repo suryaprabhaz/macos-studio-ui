@@ -1,5 +1,5 @@
 {
-  "name": "AeroUI Minimal",
+  "name": "macOS Studio Minimal",
   "type": "dark",
   "colors": {
     "activityBar.background": "#141414",
@@ -21,23 +21,40 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment"],
-      "settings": { "foreground": "#555555", "fontStyle": "italic" }
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#555555",
+        "fontStyle": "italic"
+      }
     },
     {
       "name": "Keyword",
-      "scope": ["keyword"],
-      "settings": { "foreground": "#ea76cb" }
+      "scope": [
+        "keyword"
+      ],
+      "settings": {
+        "foreground": "#ea76cb"
+      }
     },
     {
       "name": "String",
-      "scope": ["string"],
-      "settings": { "foreground": "#a6e3a1" }
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#a6e3a1"
+      }
     },
     {
       "name": "Function",
-      "scope": ["entity.name.function"],
-      "settings": { "foreground": "#89b4fa" }
+      "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#89b4fa"
+      }
     }
   ]
 }

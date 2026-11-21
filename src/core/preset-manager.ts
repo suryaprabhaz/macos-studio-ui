@@ -39,40 +39,40 @@ export class PresetManager {
     this.presets.set('macOS Dark', {
       name: 'macOS Dark',
       description: 'Refined Apple dark palette with deep graphite background and crisp accents',
-      themeLabel: 'AeroUI macOS Dark',
+      themeLabel: 'macOS Studio Dark',
       settings: {
         ...commonMacSettings,
-        'workbench.colorTheme': 'AeroUI macOS Dark'
+        'workbench.colorTheme': 'macOS Studio Dark'
       }
     });
 
     this.presets.set('macOS Light', {
       name: 'macOS Light',
       description: 'Clean Apple light aesthetic with subtle platinum borders and soft shadows',
-      themeLabel: 'AeroUI macOS Light',
+      themeLabel: 'macOS Studio Light',
       settings: {
         ...commonMacSettings,
-        'workbench.colorTheme': 'AeroUI macOS Light'
+        'workbench.colorTheme': 'macOS Studio Light'
       }
     });
 
     this.presets.set('macOS Midnight', {
       name: 'macOS Midnight',
       description: 'Ultra-deep space black finish inspired by modern dark room macOS mode',
-      themeLabel: 'AeroUI macOS Midnight',
+      themeLabel: 'macOS Studio Midnight',
       settings: {
         ...commonMacSettings,
-        'workbench.colorTheme': 'AeroUI macOS Midnight'
+        'workbench.colorTheme': 'macOS Studio Midnight'
       }
     });
 
     this.presets.set('Minimal', {
       name: 'Minimal',
       description: 'Distraction-free macOS layout hiding unnecessary editor clutter',
-      themeLabel: 'AeroUI Minimal',
+      themeLabel: 'macOS Studio Minimal',
       settings: {
         ...commonMacSettings,
-        'workbench.colorTheme': 'AeroUI Minimal',
+        'workbench.colorTheme': 'macOS Studio Minimal',
         'workbench.activityBar.location': 'top',
         'workbench.statusBar.visible': true,
         'breadcrumbs.enabled': false,
@@ -84,10 +84,10 @@ export class PresetManager {
     this.presets.set('Glass-inspired', {
       name: 'Glass-inspired',
       description: 'Translucent feel using layered tones, high contrast, and refined borders',
-      themeLabel: 'AeroUI Glass',
+      themeLabel: 'macOS Studio Glass',
       settings: {
         ...commonMacSettings,
-        'workbench.colorTheme': 'AeroUI Glass',
+        'workbench.colorTheme': 'macOS Studio Glass',
         'editor.renderLineHighlight': 'line'
       }
     });
@@ -95,10 +95,10 @@ export class PresetManager {
     this.presets.set('Classic', {
       name: 'Classic',
       description: 'Nostalgic Mac OS X Aqua-inspired color balance and refined code styling',
-      themeLabel: 'AeroUI Classic',
+      themeLabel: 'macOS Studio Classic',
       settings: {
         ...commonMacSettings,
-        'workbench.colorTheme': 'AeroUI Classic'
+        'workbench.colorTheme': 'macOS Studio Classic'
       }
     });
   }

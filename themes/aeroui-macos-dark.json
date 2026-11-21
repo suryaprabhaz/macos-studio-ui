@@ -1,5 +1,5 @@
 {
-  "name": "AeroUI macOS Dark",
+  "name": "macOS Studio Dark",
   "type": "dark",
   "colors": {
     "activityBar.background": "#1e1e1e",
@@ -22,10 +22,10 @@
     "tab.border": "#222222",
     "editor.background": "#1e1e1e",
     "editor.foreground": "#e1e1e1",
-    "editorLineNumber.foreground": "#505050",
+    "editorLineNumber.foreground": "#555555",
     "editorLineNumber.activeForeground": "#c6c6c6",
     "editorCursor.foreground": "#007aff",
-    "editor.lineHighlightBackground": "#28282855",
+    "editor.lineHighlightBackground": "#25252588",
     "editor.selectionBackground": "#007aff33",
     "statusBar.background": "#181818",
     "statusBar.foreground": "#999999",
@@ -33,43 +33,110 @@
     "titleBar.activeBackground": "#1e1e1e",
     "titleBar.activeForeground": "#cccccc",
     "titleBar.inactiveBackground": "#181818",
-    "titleBar.inactiveForeground": "#666666"
+    "titleBar.inactiveForeground": "#666666",
+    "titleBar.border": "#282828",
+    "panel.background": "#181818",
+    "panel.border": "#282828",
+    "panelTitle.activeForeground": "#ffffff",
+    "terminal.background": "#181818",
+    "terminal.foreground": "#e1e1e1",
+    "terminalCursor.foreground": "#007aff",
+    "quickInput.background": "#202022",
+    "quickInput.foreground": "#e0e0e0",
+    "menu.background": "#202022",
+    "menu.foreground": "#e0e0e0",
+    "menu.selectionBackground": "#007aff",
+    "menu.selectionForeground": "#ffffff",
+    "notifications.background": "#202022",
+    "notifications.foreground": "#e0e0e0",
+    "notificationCenterHeader.background": "#181818",
+    "badge.background": "#007aff",
+    "badge.foreground": "#ffffff",
+    "button.background": "#007aff",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#0a84ff",
+    "input.background": "#252528",
+    "input.foreground": "#e0e0e0",
+    "input.border": "#353538",
+    "inputOption.activeBorder": "#007aff",
+    "focusBorder": "#007aff",
+    "list.activeSelectionBackground": "#007aff",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#2d2d30",
+    "list.hoverBackground": "#262629"
   },
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
-      "settings": { "foreground": "#6a737d", "fontStyle": "italic" }
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#6a737d",
+        "fontStyle": "italic"
+      }
     },
     {
       "name": "Keyword",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
-      "settings": { "foreground": "#ff7ab2" }
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#ff7ab2"
+      }
     },
     {
       "name": "String",
-      "scope": ["string", "punctuation.definition.string"],
-      "settings": { "foreground": "#ff8170" }
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#ff8170"
+      }
     },
     {
       "name": "Function",
-      "scope": ["entity.name.function", "support.function"],
-      "settings": { "foreground": "#78c2b4" }
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#78c2b4"
+      }
     },
     {
       "name": "Variable",
-      "scope": ["variable", "support.variable"],
-      "settings": { "foreground": "#e1e1e1" }
+      "scope": [
+        "variable",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#e1e1e1"
+      }
     },
     {
       "name": "Type",
-      "scope": ["entity.name.type", "support.type"],
-      "settings": { "foreground": "#6bdfff" }
+      "scope": [
+        "entity.name.type",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#6bdfff"
+      }
     },
     {
       "name": "Number",
-      "scope": ["constant.numeric", "constant.language"],
-      "settings": { "foreground": "#dabaef" }
+      "scope": [
+        "constant.numeric",
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#dabaef"
+      }
     }
   ]
 }

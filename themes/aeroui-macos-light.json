@@ -1,5 +1,5 @@
 {
-  "name": "AeroUI macOS Light",
+  "name": "macOS Studio Light",
   "type": "light",
   "colors": {
     "activityBar.background": "#f0f0f2",
@@ -33,43 +33,110 @@
     "titleBar.activeBackground": "#f5f5f7",
     "titleBar.activeForeground": "#333333",
     "titleBar.inactiveBackground": "#fafafa",
-    "titleBar.inactiveForeground": "#999999"
+    "titleBar.inactiveForeground": "#999999",
+    "titleBar.border": "#e5e5e7",
+    "panel.background": "#f5f5f7",
+    "panel.border": "#e5e5e7",
+    "panelTitle.activeForeground": "#111111",
+    "terminal.background": "#ffffff",
+    "terminal.foreground": "#24292e",
+    "terminalCursor.foreground": "#007aff",
+    "quickInput.background": "#fbfbfd",
+    "quickInput.foreground": "#222222",
+    "menu.background": "#fbfbfd",
+    "menu.foreground": "#222222",
+    "menu.selectionBackground": "#007aff",
+    "menu.selectionForeground": "#ffffff",
+    "notifications.background": "#fbfbfd",
+    "notifications.foreground": "#222222",
+    "notificationCenterHeader.background": "#f0f0f2",
+    "badge.background": "#007aff",
+    "badge.foreground": "#ffffff",
+    "button.background": "#007aff",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#0a84ff",
+    "input.background": "#ffffff",
+    "input.foreground": "#222222",
+    "input.border": "#d2d2d7",
+    "inputOption.activeBorder": "#007aff",
+    "focusBorder": "#007aff",
+    "list.activeSelectionBackground": "#007aff",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#e8e8ed",
+    "list.hoverBackground": "#ececef"
   },
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
-      "settings": { "foreground": "#8e8e93", "fontStyle": "italic" }
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#8e8e93",
+        "fontStyle": "italic"
+      }
     },
     {
       "name": "Keyword",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
-      "settings": { "foreground": "#ad3da4" }
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#ad3da4"
+      }
     },
     {
       "name": "String",
-      "scope": ["string", "punctuation.definition.string"],
-      "settings": { "foreground": "#c41a16" }
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#c41a16"
+      }
     },
     {
       "name": "Function",
-      "scope": ["entity.name.function", "support.function"],
-      "settings": { "foreground": "#3e8087" }
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#3e8087"
+      }
     },
     {
       "name": "Variable",
-      "scope": ["variable", "support.variable"],
-      "settings": { "foreground": "#24292e" }
+      "scope": [
+        "variable",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#24292e"
+      }
     },
     {
       "name": "Type",
-      "scope": ["entity.name.type", "support.type"],
-      "settings": { "foreground": "#0f68a0" }
+      "scope": [
+        "entity.name.type",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#0f68a0"
+      }
     },
     {
       "name": "Number",
-      "scope": ["constant.numeric", "constant.language"],
-      "settings": { "foreground": "#6c36a9" }
+      "scope": [
+        "constant.numeric",
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#6c36a9"
+      }
     }
   ]
 }

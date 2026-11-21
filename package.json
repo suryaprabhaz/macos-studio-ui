@@ -1,7 +1,7 @@
 {
-  "name": "aeroui",
-  "displayName": "AeroUI — macOS UI for Code Editors",
-  "description": "macOS-inspired clean appearance, refined themes, presets, and UI controls for VS Code-compatible code editors.",
+  "name": "macos-studio-ui",
+  "displayName": "macOS Studio UI \u2014 Native macOS Experience for Code Editors",
+  "description": "Transform VS Code, Cursor, Windsurf, and Code OSS into a refined, native macOS development studio with authentic palettes, typography, and controls.",
   "version": "0.1.0",
   "publisher": "rizzzuu",
   "author": {
@@ -17,7 +17,7 @@
     "url": "https://github.com/suryaprabhaz/AeroUI/issues"
   },
   "license": "MIT",
-  "icon": "assets/aeroui-icon.png",
+  "icon": "assets/macos-studio-icon.png",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -27,14 +27,14 @@
   ],
   "keywords": [
     "macos",
-    "theme",
-    "clean",
-    "minimal",
-    "ui",
     "apple",
-    "aeroui",
+    "studio",
+    "theme",
+    "ui",
+    "cupertino",
     "cursor",
-    "appearance"
+    "clean",
+    "minimal"
   ],
   "main": "./dist/extension.js",
   "activationEvents": [
@@ -44,45 +44,45 @@
     "commands": [
       {
         "command": "aeroui.enable",
-        "title": "AeroUI: Enable macOS Mode",
-        "category": "AeroUI"
+        "title": "macOS Studio: Enable macOS Mode",
+        "category": "macOS Studio"
       },
       {
         "command": "aeroui.disable",
-        "title": "AeroUI: Disable macOS Mode",
-        "category": "AeroUI"
+        "title": "macOS Studio: Disable macOS Mode",
+        "category": "macOS Studio"
       },
       {
         "command": "aeroui.toggle",
-        "title": "AeroUI: Toggle macOS Mode",
-        "category": "AeroUI"
+        "title": "macOS Studio: Toggle macOS Mode",
+        "category": "macOS Studio"
       },
       {
         "command": "aeroui.selectPreset",
-        "title": "AeroUI: Select Preset",
-        "category": "AeroUI"
+        "title": "macOS Studio: Select Preset",
+        "category": "macOS Studio"
       },
       {
         "command": "aeroui.openSettings",
-        "title": "AeroUI: Open AeroUI Settings",
-        "category": "AeroUI"
+        "title": "macOS Studio: Open macOS Studio Settings",
+        "category": "macOS Studio"
       },
       {
         "command": "aeroui.restorePrevious",
-        "title": "AeroUI: Restore Previous Appearance",
-        "category": "AeroUI"
+        "title": "macOS Studio: Restore Previous Appearance",
+        "category": "macOS Studio"
       },
       {
         "command": "aeroui.showStatus",
-        "title": "AeroUI: Show Status",
-        "category": "AeroUI"
+        "title": "macOS Studio: Show Status",
+        "category": "macOS Studio"
       }
     ],
     "viewsContainers": {
       "activitybar": [
         {
           "id": "aeroui-sidebar-view",
-          "title": "AeroUI",
+          "title": "macOS Studio",
           "icon": "assets/sidebar-icon.svg"
         }
       ]
@@ -92,38 +92,38 @@
         {
           "type": "webview",
           "id": "aeroui.dashboardView",
-          "name": "AeroUI Control Center"
+          "name": "macOS Studio Control Center"
         }
       ]
     },
     "themes": [
       {
-        "label": "AeroUI macOS Dark",
+        "label": "macOS Studio macOS Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/aeroui-macos-dark.json"
       },
       {
-        "label": "AeroUI macOS Light",
+        "label": "macOS Studio macOS Light",
         "uiTheme": "vs",
         "path": "./themes/aeroui-macos-light.json"
       },
       {
-        "label": "AeroUI macOS Midnight",
+        "label": "macOS Studio macOS Midnight",
         "uiTheme": "vs-dark",
         "path": "./themes/aeroui-macos-midnight.json"
       },
       {
-        "label": "AeroUI Minimal",
+        "label": "macOS Studio Minimal",
         "uiTheme": "vs-dark",
         "path": "./themes/aeroui-minimal.json"
       },
       {
-        "label": "AeroUI Glass",
+        "label": "macOS Studio Glass",
         "uiTheme": "vs-dark",
         "path": "./themes/aeroui-glass.json"
       },
       {
-        "label": "AeroUI Classic",
+        "label": "macOS Studio Classic",
         "uiTheme": "vs-dark",
         "path": "./themes/aeroui-classic.json"
       }
